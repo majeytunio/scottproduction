@@ -11082,9 +11082,11 @@ export default function DashboardContent() {
 
           {/* YTD Net Commission */}
           <div className="bg-[#FDEAA7] rounded-xl p-4 relative">
-            // <div className="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-            //   ✅ CORRECTED
-            // </div>
+            {/*
+            <div className="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+              ✅ CORRECTED
+            </div>
+            */}
             <div className="flex justify-between items-center mb-4">
               <div className="text-xs font-bold text-gray-600 uppercase tracking-wider">YTD Net Commission</div>
               <div className="text-xl">🏆</div>
@@ -11126,9 +11128,11 @@ export default function DashboardContent() {
             </div>
             
             {/* Annotation */}
-            // <div className="mt-4 p-3 bg-gray-100 rounded text-xs text-gray-700 border-l-4 border-orange-500">
-            //   ⚠️ Pulling commission from <strong>Column AK (Net Commission)</strong> in Google Sheet
-            // </div>
+            {/*
+            <div className="mt-4 p-3 bg-gray-100 rounded text-xs text-gray-700 border-l-4 border-orange-500">
+              ⚠️ Pulling commission from <strong>Column AK (Net Commission)</strong> in Google Sheet
+            </div>
+            */}
           </div>
         </div>
 
@@ -11188,9 +11192,11 @@ export default function DashboardContent() {
 
           {/* YTD Production */}
           <div className="bg-[#FDEAA7] rounded-xl p-4 relative">
-            // <div className="absolute top-2 right-2 bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-            //   🆕 NEW
-            // </div>
+            {/*
+            <div className="absolute top-2 right-2 bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full">
+               🆕 NEW
+            </div>
+            */}
             <div className="flex justify-between items-center mb-4">
               <div className="text-xs font-bold text-gray-600 uppercase tracking-wider">YTD Production</div>
               <div className="text-xl">🏅</div>
@@ -11261,9 +11267,11 @@ export default function DashboardContent() {
             </div>
             
             {/* Annotation */}
-            // <div className="mt-4 p-3 bg-gray-100 rounded text-xs text-gray-700 border-l-4 border-blue-500">
-            //   🆕 Approved/Pending/Declined breakdown. Filter using <strong>Column J (Status)</strong> in Google Sheet.
-            // </div>
+            {/*
+            <div className="mt-4 p-3 bg-gray-100 rounded text-xs text-gray-700 border-l-4 border-blue-500">
+              🆕 Approved/Pending/Declined breakdown. Filter using <strong>Column J (Status)</strong> in Google Sheet.
+            </div>
+            */}
           </div>
         </div>
 
